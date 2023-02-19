@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Main Flow" >
+    <test name="flow1">
+        <classes>
+            <class name="Setup"></class>
+            <class name="DiscoverFlow"></class>
+            <class name="TearDown"></class>
+        </classes>
+    </test>
+
+    <test name="flow2">
+        <classes>
+            <class name="Setup"></class>
+            <class name="SearchFlow"></class>
+            <class name="TearDown"></class>
+        </classes>
+    </test>
+
+    <test name="flow3">
+        <classes>
+            <class name="AddToCartFlowPOM"></class>
+            <class name="AddToCartFlow"></class>
+            <class name="TearDown"></class>
+        </classes>
+    </test>
+
+</suite>
